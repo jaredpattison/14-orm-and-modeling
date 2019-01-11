@@ -1,13 +1,13 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## API rest server
 
-### Author: Student/Group Name
-
+### Author: Jared
+[![Build Status](https://www.travis-ci.com/jaredpattison/14-orm-and-modeling.svg?branch=master)](https://www.travis-ci.com/jaredpattison/14-orm-and-modeling)
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
+* [repo](https://github.com/jaredpattison/14-orm-and-modeling)
+* [travis](https://www.travis-ci.com/jaredpattison/14-orm-and-modeling)
 * [back-end](http://xyz.com) (when applicable)
 * [front-end](http://xyz.com) (when applicable)
 
@@ -16,18 +16,15 @@
 * [jsdoc](http://xyz.com) (All assignments)
 
 ### Modules
-#### `modulename.js`
+#### `app.js`
+#### `categories.js`
+#### `products.js`
+
 ##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
+* `PORT` - 3000
 * `MONGODB_URI` - URL to the running mongo instance/db
 
 #### Running the app
@@ -44,3 +41,4 @@ Usage Notes or examples
 
 #### UML
 Link to an image of the UML for your application and response to events
+d
