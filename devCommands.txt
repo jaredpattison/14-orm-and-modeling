@@ -1,0 +1,12 @@
+echo '{"name":"Cleaning Products", "description":"Houshold Cleaners"}' | http post :3000/api/v1/categories
+echo '{"name":"Hair Products", "description":"Shampoos, Conditioners, Hair Styling"}' | http post :3000/api/v1/categories
+echo '{"name":"Skin Products", "description":"Moisturizers, Lotions"}' | http post :3000/api/v1/categories
+
+
+echo '{"category":"Cleaning Products", "name":"Javax Bathroom", "description":"Javax Bathroom Cleaner With Bleach", "price":"4.99"}' | http post :3000/api/v1/products
+echo '{"category":"Cleaning Products", "name":"Windex", "description":"Glass Cleaner", "price":"5.88"}' | http post :3000/api/v1/products
+echo '{"category":"Cleaning Products", "name":"Palmolive", "description":"Dish Soap", "price":"4.20"}' | http post :3000/api/v1/products
+echo '{"category":"Hair Products", "name":"Vivo", "description":"Hair Gel", "price":"7.99"}' | http post :3000/api/v1/products
+echo '{"category":"Hair Products", "name":"Main and Tail", "description":"Horse Shampoo", "price":"8.87"}' | http post :3000/api/v1/products
+echo '{"category":"Skin Products", "name":"Jergens", "description":"Body lotion", "price":"3.99"}' | http post :3000/api/v1/products
+
