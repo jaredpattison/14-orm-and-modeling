@@ -1,8 +1,9 @@
 'use strict';
 
-const categorieSchema = require('./categories-schema');
+const categoriesSchema = require('./categories-schema');
 const dataModel = require('./model.js');
 
-class Categorie extends dataModel { }
+class Categories extends dataModel { }
 
-module.exports = new Categorie(categorieSchema);
+module.exports = new Categories(categoriesSchema);
+
