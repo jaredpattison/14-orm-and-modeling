@@ -8,12 +8,11 @@
 ### Links and Resources
 * [repo](https://github.com/jaredpattison/14-orm-and-modeling)
 * [travis](https://www.travis-ci.com/jaredpattison/14-orm-and-modeling)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [back-end](https://jared-14.herokuapp.com)
 
 #### Documentation
-* [swagger](http://xyz.com) (API assignments only)
-* [jsdoc](http://xyz.com) (All assignments)
+* [swagger](https://jared-14.herokuapp.com/api/v1/doc)
+* [jsdoc](https://jared-14.herokuapp.com/api/v1/docs)
 
 ### Modules
 #### `app.js`
@@ -29,12 +28,6 @@
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
   
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* npm test
